@@ -11,4 +11,3 @@ function loadIssues() {
   var result = template(issues);
   document.getElementsByTagName("main")[0].innerHTML += result;
 }
-
